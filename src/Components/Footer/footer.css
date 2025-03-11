@@ -1,0 +1,92 @@
+footer {
+    background-color: #161616;
+    z-index: 2;
+    padding: 2em!important;
+    bottom: 0;
+}
+
+footer h4 {
+    color: #57BFE6;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+}
+
+footer ul {
+    list-style:none;
+    padding: 0;
+}
+
+footer ul li,.p-footer,footer span {
+    font-size: 16px!important;
+}
+
+footer h5, footer span {
+    color: white;
+    font-weight: 300;
+}
+
+footer svg {
+    all: initial;
+    color: white;
+}
+
+footer p {
+    width: 90%;
+}
+footer span {
+    font-style: normal!important;
+}
+
+footer a:hover {
+color: #57BFE6;
+}
+  .logo-footer {
+      width: 40px;
+      height: auto;
+  }
+
+  .goneprod {
+    width: 35%;
+  }
+
+  .partenaires {
+    width: 17%;
+    height: auto;
+  }
+  
+
+@media screen and (max-width: 1280px) {
+    /* footer h4 {
+        margin-top: 1em;
+    } */
+
+    footer ul li {
+        font-size: 16px;
+        font-weight: 300;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    
+    footer p {
+        margin: 0;
+        font-size: 16px;
+        font-weight: 300;
+        font-family: 'Source Sans Pro', sans-serif;
+        width: 100%;
+    }
+
+    footer .contact {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    }
+
+    footer h5 {
+            font-family: 'Source Sans Pro', sans-serif;
+            font-weight: 300;
+    }
+
+    footer div > .active {
+        color: white;
+    }
+
+}

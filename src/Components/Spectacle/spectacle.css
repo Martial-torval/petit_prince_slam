@@ -1,0 +1,22 @@
+.container--spectacle {
+    background-image: url('../../assets/img/bg-spectacle-section.webp');
+    background-repeat: no-repeat;
+    background-position: right;
+    z-index:2;
+    top: 0;
+    background-color: black;
+}
+
+
+
+@media screen and (max-width: 1280px) {
+
+    .container--spectacle {
+        background-position: center;
+        background-blend-mode: multiply;
+        background-color: #838d91;
+        height: initial;
+        background-size: cover;
+    }
+   
+}

@@ -1,0 +1,94 @@
+.section-cd {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    z-index: 2;
+    padding-bottom: 0!important ;
+}
+
+.section-cd h3 {
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+
+img {
+    width:75%;
+    height: auto;
+}
+
+.article > * {
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.article > h4 {
+    font-size: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+div h4 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.duration,.artist {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+div span {
+    font-style: initial;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.quantity button {
+    background:transparent;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.quantity h4,.duration h4,.track h4,.artist h4,.price h4 {
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px!important;
+}
+
+.paypal-button {
+    padding: 2em;
+}
+
+.paymentPdf,.paymentPdf:hover {
+    color: #57BFE6;
+}
+
+
+.logo-music {
+    width: auto;
+    height: 6vh;
+    /* object-fit: cover; */
+}
+
+.deezer {
+    height: 4vh;
+}
+
+.spotify {
+    height: 5vh;
+}
+
+a .logo-music:nth-child(2) {
+    height: 2vh;
+}
+.billingAddress {
+    background-color: red!important;
+}
+.zoid-visible {
+    color: white!important;
+}
+
+@media screen and (max-width: 1280px) { 
+    .section-cd {
+        height: initial;
+    }
+}

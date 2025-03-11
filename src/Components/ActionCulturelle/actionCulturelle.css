@@ -1,0 +1,353 @@
+.section__culturelle {
+    width: 100%;
+    background-color: black;
+    z-index: 2;
+    padding: 5rem 0rem !important;
+}
+
+/* .h2-ac {
+    font-size: 96px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #57BFE6;
+    line-height: 0.9;
+    letter-spacing: 0.03em;
+    padding-left: 5rem;
+} */
+
+.ac {
+    padding: 0;
+    position: relative;
+    display: block;
+}
+
+
+.hover-img {
+    position: relative;
+    text-align: center;
+}
+
+.hover-img *{
+    transition: all 0.3s ease;
+}
+
+.hover-img:before,
+.hover-img:after {
+    content: '';
+    background-color: #57c0e690;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.3s ease;
+    /* z-index: 1; */
+    opacity: 0;
+}
+
+.hover-img:before:hover {
+    opacity: 1;
+}
+
+figure {
+    margin-bottom: 0;
+}
+
+.hover-img figcaption {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: 1;
+    padding: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+}
+
+
+
+
+.hover-img:hover:before,
+.hover-img:hover:after {
+    opacity: 1;
+}
+
+.hover-img:hover figcaption {
+    opacity: 1;
+}
+
+figcaption > button {
+    background-color: transparent;
+    border: 0.5px solid white;
+    color: white;
+    padding: 0.5em;
+}
+
+figcaption p {
+    margin: 0;
+    width: 100%;
+}
+
+.hover-img h3,.hover-img p,.hover-img button {
+        font-family: 'Source Sans Pro', sans-serif;
+        color: white;
+        text-shadow: 1px 1px 8px #0000003e;
+}
+
+.hover-img button:hover {
+    
+color: black !important;
+    background-color: white;
+    font-weight: 500;
+}
+
+.img-ac {
+    width: 100%;
+    height: 80vh;
+    /* overflow: hidden; */
+    object-fit: cover;
+}
+
+.overlay {
+    background-color: black!important;
+    max-width: initial!important;
+    width: 80%;
+    z-index: 5;
+
+}
+
+.overlay svg {
+    fill: white;
+    top: 50%;
+    right: 50%;
+    margin-top: 1em;
+    margin-right: 1em;
+}
+
+.overlay .download-icon {
+    position: relative;
+    right: 0;
+    margin: 0;
+    font-size: 25px;
+    transform: initial;
+    transition: fill 0.1s ease-out;
+    cursor: pointer;
+}
+
+.overlay .download-icon:hover {
+    fill: #57BFE6;
+}
+
+.download_btn {
+    background-color: #57BFE6;
+    color: black!important;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 0.5em;
+    font-weight: 400;
+}
+
+.overlay * {
+    text-align: initial;
+}
+
+.styles_backdrop__2LNQS {
+    backdrop-filter: blur(8px);
+    height: 100vh;
+    background-color: initial; 
+    z-index: 10000!important;
+    padding: 0!important;
+} 
+
+
+.overlay h3{
+    font-size: 35px;
+    color: #57BFE6;
+    text-transform: uppercase;
+}
+
+.overlay p,.overlay ol,.overlay ul,.overlay li:hover {
+    color: white;
+}
+
+.overlay p {
+    font-size: 18px;
+    width: 100%;
+}
+
+.styles_overlay-close__3e1ke {
+    fill: white
+}
+
+.overlay ul {
+    list-style-type: '- ';
+}
+
+.overlay li {
+   font-weight: 300;
+   font-size: 18px;
+}
+
+.overlay li:hover {
+    cursor: initial;
+}
+
+.overlay h4 {
+    color: #57BFE6;
+    font-size: 18px;
+    text-align: initial;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    letter-spacing: initial !important;
+    font-weight: 300;
+}
+
+.overlay h5 {
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #57BFE6;
+    font-weight: 300;
+}
+
+.link-download-overlay {
+    color: black;
+}
+.link-download-overlay:hover {
+    color: initial;
+}
+
+.br-none {
+    display: none;
+}
+.testimonial {
+    border: 2px solid #57BFE6;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    font-style: italic;
+    margin: 0 auto;
+    padding: 2em;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.overlay span {
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+}
+
+
+.slide div {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.slide p {
+    text-align: center;
+    color: white;
+    width: initial;
+    margin: 0;
+}
+
+.slide h2 {
+    color: white;
+    font-size: 30px;
+    text-align: initial;
+}
+
+/* .slide h3 {
+   color: white;
+   font-size: initial;
+   font-style: italic;
+   text-align: initial;
+   font-weight: 400;
+} */
+
+.carousel .control-prev.control-arrow {
+    left: 2%!important;
+}
+
+.carousel .control-next.control-arrow {
+    right: 2%!important;
+}
+
+.carousel .slide {
+    text-align: initial!important;
+}
+
+
+.control-arrow {
+    opacity: initial!important;
+    position: relative;
+        z-index: 1;
+}
+
+.control-arrow:before {
+    display: none!important;
+}
+
+.dot{
+    box-shadow: none!important;
+}
+
+
+
+
+.btn-arrow-next {
+    right: 2%!important;
+}
+
+.btn-arrow-prev {
+    left: 2%!important;
+    text-align: initial;
+}
+
+.btn-arrow-next:hover {
+    background-color: #57BFE6;
+    opacity: 1;
+} 
+
+.carousel-status {
+    display: none;
+}
+.container-carousel {
+    background-color: #57BFE6;
+}
+
+.carousel.carousel-slider .control-arrow:hover {
+    background: none!important;
+}
+
+.slider {
+    align-items: center;
+}
+
+
+@media screen and (max-width: 1280px) {
+.control-arrow {
+    display: none;
+}
+
+.overlay {
+    width: 100%;
+    z-index: 5;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

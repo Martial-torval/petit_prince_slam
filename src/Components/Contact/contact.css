@@ -1,0 +1,17 @@
+.section--contact {
+    background-color: black;
+    position: relative;
+    z-index: 3;
+    /* height: 100vh; */
+}
+
+.section--contact h2 {
+    padding-left: 5rem;
+}
+.section--contact span {
+ color: white;
+}
+
+.contact-title {
+    text-transform: uppercase;
+}

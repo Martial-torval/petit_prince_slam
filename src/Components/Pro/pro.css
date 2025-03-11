@@ -1,0 +1,155 @@
+.section--pro {
+    padding: 0!important;
+}
+
+.h2--pro {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 3em!important;
+    letter-spacing: initial!important;
+    font-weight: 600;
+}
+
+.react-multi-carousel-track,.react-multi-carousel-list {
+    position: initial!important;
+}
+
+.react-multi-carousel-item {
+    margin-bottom: 2em;
+}
+
+.react-multi-carousel-item:hover {
+    color: white;
+}
+
+.card--button:hover {
+background-color: #57BFE6;
+color: white;
+transition: 0.5s;
+}
+
+.multi-carousel {
+    width: 85%;
+    position: initial;
+}
+
+.file--button,.card--button {
+        font-family: 'Source Sans Pro', sans-serif;
+            color: white;
+            text-shadow: 1px 1px 8px #0000003e;
+            background-color: transparent;
+            border: 0.5px solid white;
+            padding: 0.5em;
+            text-decoration: none;  
+}
+
+
+
+.dot--multiCarousel {
+        transition: opacity .25s ease-in;
+            /* opacity: .3; */
+            box-shadow: 1px 1px 2px rgb(0 0 0 / 90%);
+            background: #fff;
+            border-radius: 50%;
+            width: 8px;
+            height: 8px;
+            cursor: pointer;
+            display: inline-block;
+            /* margin: 0 8px; */
+}
+
+.react-multiple-carousel__arrow--right::before {
+    content: url('../../assets/img/right-arrow.png')!important;
+ 
+}
+
+.react-multiple-carousel__arrow--left::before {
+    content: url('../../assets/img/left-arrow.png') !important;
+
+}
+
+/* p > ul {
+    list-style-type: "-  ";
+} */
+
+p>ul li:hover {
+    color: white;
+    cursor: initial;
+}
+
+/* .carousel .control-dots {
+    bottom: -10%!important;
+} */
+
+.react-multi-carousel-dot-list {
+            position: absolute;
+            bottom: 0;
+            padding: 0;
+            text-align: center;
+            width: 100%;
+            z-index: 1;
+            background-color: black;
+}
+
+.react-multi-carousel-dot {
+    transition: opacity .25s ease-in;
+        opacity: .3;
+        filter: alpha(opacity=30);
+        box-shadow: 1px 1px 2px rgb(0 0 0 / 90%);
+        background: #fff;
+        border-radius: 50%;
+        width: 8px;
+        height: 8px;
+        cursor: pointer;
+        display: inline-block;
+        margin: 0 8px;
+}
+
+.react-multi-carousel-dot > button {
+    display: none!important;
+}
+
+.react-multi-carousel-dot--active {
+    transition: opacity .25s ease-in;
+        opacity: 1;
+        filter: alpha(opacity=30);
+        box-shadow: 1px 1px 2px rgb(0 0 0 / 90%);
+        background: #fff;
+        border-radius: 50%;
+        width: 8px;
+        height: 8px;
+        cursor: pointer;
+        display: inline-block;
+        margin: 0 8px;
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 30vh;
+}
+
+.rightArrowMulti {
+    width: 20px;
+    height: 20px;
+}
+.btn-prev {
+    background-color: transparent;
+}
+
+.btn-prev > img {
+    width: 100%;
+    height: auto;
+}
+
+.container-with-dots {
+    margin-top: 2em;
+}
+
+.img-bottom {
+    object-position: top;
+}
+
+@media screen and (max-width: 1280px) {
+.react-multiple-carousel__arrow {
+    display: none;
+}
+}

@@ -1,0 +1,69 @@
+.nav-item {
+    font-size: 30px;
+    line-height: 1.8em;
+    letter-spacing: 0.05em;
+    font-family: 'Bebas Neue', cursive !important;
+}
+
+
+
+.nav-item > a:hover {
+    color: #57BFE6;
+}
+
+.active,.active:hover {
+    color: #57BFE6;
+    text-decoration: none;
+}
+
+
+ul li {
+    color: white;
+}
+
+ul li:hover {
+    color: #57BFE6;
+    cursor: pointer;
+}
+
+
+.burgerMenu {
+    position: fixed;
+    top: 5%;
+    right: 3%;
+    cursor: pointer;
+    z-index: 4;
+}
+
+nav {
+    position: absolute;
+    right: -30%;
+    transition: right 0.7s;
+    position: fixed;
+}
+
+.open {
+    right: 0%;
+}
+
+#closeMenu {
+    display: none;
+}
+
+.link-pro a{
+    color: #57BFE6;
+}
+
+@media screen and (max-width: 1400px) {
+    .burgerMenu {
+        right: 10%;
+        top: 7%;
+    }
+
+        nav {
+            position: absolute;
+            right: -100%;
+            transition: right 0.7s;
+            position: fixed;
+        }
+}
